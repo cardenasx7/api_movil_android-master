@@ -53,6 +53,7 @@ public class ProductAdapter extends ArrayAdapter<Product> {
                 intent.putExtra("product_price", String.valueOf(products.get(pos).getPrice()));
                 intent.putExtra("product_stock", String.valueOf(products.get(pos).getStock()));
                 context.startActivity(intent);
+                //hola
             }
         });
 
