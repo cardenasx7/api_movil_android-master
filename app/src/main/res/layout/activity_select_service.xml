@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectServiceActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnJavaSpringBoot"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_uno"
+            android:onClick="selectService"
+            android:text="JAVA SPRING"
+            android:textColor="@drawable/txt_btn_uno" />
+
+        <Button
+            android:id="@+id/btnPhpLumen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_dos"
+            android:onClick="selectService"
+            android:text="PHP"
+            android:textColor="@drawable/txt_btn_dos" />
+
+        <Button
+            android:id="@+id/btnPythonFlask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_tres"
+            android:onClick="selectService"
+            android:text="PYTHON"
+            android:textColor="@drawable/txt_btn_tres" />
+
+        <Button
+            android:id="@+id/btnNodejsExpress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_cuatro"
+            android:onClick="selectService"
+            android:text="NODE JS"
+            android:textColor="@drawable/txt_btn_cuatro" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
